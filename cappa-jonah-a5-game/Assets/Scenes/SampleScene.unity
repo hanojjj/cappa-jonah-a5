@@ -247,8 +247,8 @@ Transform:
   m_GameObject: {fileID: 122195530}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -9.03, y: 2.5649, z: 0}
-  m_LocalScale: {x: 15.683391, y: 0.2125, z: 1}
+  m_LocalPosition: {x: -9.03, y: 1.0288, z: 0}
+  m_LocalScale: {x: 12.612019, y: 0.2125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 449067493}
   m_Layer: 0
   m_Name: BasketRightTop
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -507,7 +507,7 @@ Transform:
   m_GameObject: {fileID: 461761856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0149, y: 10.3, z: 0}
+  m_LocalPosition: {x: 0.0149, y: 7.23, z: 0}
   m_LocalScale: {x: 17.896048, y: 0.2125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 1137335000}
   m_Layer: 0
   m_Name: BasketLeftBottom
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1003,8 +1003,8 @@ Transform:
   m_GameObject: {fileID: 1137334999}
   serializedVersion: 2
   m_LocalRotation: {x: 0.95885694, y: -0.28388983, z: 0, w: 0}
-  m_LocalPosition: {x: -7.59, y: -0.91, z: -6.51871e-15}
-  m_LocalScale: {x: 2.744229, y: 0.29112402, z: 1}
+  m_LocalPosition: {x: -5.85, y: -1.79, z: -6.51871e-15}
+  m_LocalScale: {x: 0.92068887, y: 0.26684427, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 1271399387}
   m_Layer: 0
   m_Name: 'BasketLeftTop '
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1153,7 +1153,7 @@ GameObject:
   - component: {fileID: 1474647815}
   m_Layer: 0
   m_Name: BasketRightBottom
-  m_TagString: Untagged
+  m_TagString: Basket
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1218,13 +1218,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474647810}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000009369722, y: -0.000000026122981, z: -0.28388605, w: -0.9588581}
-  m_LocalPosition: {x: 7.57, y: -0.93, z: -6.51871e-15}
-  m_LocalScale: {x: 2.744229, y: 0.29112402, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.21526727, w: 0.97655517}
+  m_LocalPosition: {x: 5.8, y: -1.85, z: -6.51871e-15}
+  m_LocalScale: {x: 0.92068887, y: 0.26684427, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 32.985}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 24.862}
 --- !u!61 &1474647814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1407,8 +1407,8 @@ Transform:
   m_GameObject: {fileID: 1694553830}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 9.06, y: 2.5666, z: 0}
-  m_LocalScale: {x: 15.68405, y: 0.2125, z: 1}
+  m_LocalPosition: {x: 9.06, y: 1.031, z: 0}
+  m_LocalScale: {x: 12.613277, y: 0.2125, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
