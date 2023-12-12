@@ -16,16 +16,39 @@ public class PlayerController : MonoBehaviour
     {
 
         Vector3 movement = new Vector3();
+        
 
-        bool isHoldingUp = Input.GetKey(KeyCode.UpArrow);
-        bool isHoldingDown = Input.GetKey(KeyCode.DownArrow);
+        bool isHoldingLeft = Input.GetKey(KeyCode.LeftArrow);
+        bool isHoldingRight = Input.GetKey(KeyCode.RightArrow);
+        bool isLeaningLeft = Input.GetKey(KeyCode.N);
+        bool isLeaningRight = Input.GetKey(KeyCode.M);
 
-        if (isHoldingUp)
-            movement.y += speed;
+        if (isHoldingLeft)
+            movement.x -= speed;
 
-        if (isHoldingDown)
-            movement.y -= speed;
+        if (isHoldingRight)
+            movement.x += speed;
+
+        if (isLeaningLeft)
+        {
+            transform.eulerAngles = Vector3.forward * 30;
+        }
+        else
+        {
+            transform.eulerAngles = new Vector3(0,0,0);
+        }
+
+        if (isLeaningRight)
+        {
+            transform.eulerAngles = Vector3.forward * -30;
+        }
+
+
+
 
         transform.position += movement * Time.deltaTime;
+        
+
+
     }
 }
