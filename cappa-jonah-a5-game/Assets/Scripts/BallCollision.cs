@@ -17,6 +17,23 @@ public class BallCollision : MonoBehaviour
             rb.MovePosition(reset);
             rb.angularVelocity = angularVelocity;
             rb.velocity = new Vector2(0.0f, 0.0f);
+
+
+            ScoreScript.scoreValue += 10;
+
+        }
+
+        if (collision.gameObject.tag == "BasketTop")
+        {
+            rb = GetComponent<Rigidbody2D>();
+            Vector3 reset = new Vector3(0, 6, 0);
+            rb.MovePosition(reset);
+            rb.angularVelocity = angularVelocity;
+            rb.velocity = new Vector2(0.0f, 0.0f);
+
+
+            ScoreScript.scoreValue += 25;
+
         }
     }
 
