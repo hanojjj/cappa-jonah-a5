@@ -15,7 +15,7 @@ public class BallCollision : MonoBehaviour
             rb = GetComponent<Rigidbody2D>();
             Vector3 reset = new Vector3(0, 6, 0);
             rb.MovePosition(reset);
-            rb.angularVelocity = angularVelocity;
+            //rb.angularVelocity = angularVelocity;
             rb.velocity = new Vector2(0.0f, 0.0f);
 
 
@@ -28,17 +28,14 @@ public class BallCollision : MonoBehaviour
             rb = GetComponent<Rigidbody2D>();
             Vector3 reset = new Vector3(0, 6, 0);
             rb.MovePosition(reset);
-            rb.angularVelocity = angularVelocity;
+            ///rb.angularVelocity = angularVelocity;
             rb.velocity = new Vector2(0.0f, 0.0f);
 
 
             ScoreScript.scoreValue += 25;
 
         }
-    }
 
-    public void OnCollisionExit2D(Collision2D collision)
-    {
         if (collision.gameObject.name == "Ground")
         {
             rb = GetComponent<Rigidbody2D>();
